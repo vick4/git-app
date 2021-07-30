@@ -1,0 +1,165 @@
+nav{
+    display: flex;
+}
+
+.logo{
+    font-size: 2em; 
+    flex: 3;
+    padding: 20px;
+ }
+ 
+ .right-menu{
+    list-style-type: none;
+    flex: 10;   
+    display: flex;
+    padding: 7px 20px;
+}
+ 
+ p{
+    margin: 0 !important;
+
+ }
+
+ ul li{
+    padding-left: 80px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.home-p{
+    color: #46a4ea;
+}
+li a:hover{
+    color: #46a4ea;
+}
+
+.get-j{
+    margin: 30px;
+}
+
+button{
+    background: #46a4ea;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #46a4ea;
+    margin-top: -30px;
+    color: white;
+}
+
+.search{
+    padding: 15px 50px 15px 50px;
+    border-radius: 20px 25px 0px 20px;
+}
+
+.new-button{
+    border-radius: 50px;
+    font-size: 0.7em;
+    padding: 5px !important;
+    margin: 5px 10px 5px 10px;
+    /* Curve time !!!!!!!!!! */
+    border-radius: 10px 10px 10px 10px;
+}
+
+
+/* Colors */
+.white-text{
+    color:white !important;
+}
+
+.white-bg{
+    background: white !important;
+}
+
+.color-bg{
+     background-color: rgba(159, 143, 188, 0.137) !important;
+}
+.left-menu{
+    list-style-type: none;
+    flex: 10;   
+    text-align:left;
+    padding: 10px 10px;
+    color: #46a4ea;
+}
+
+.find-job{
+    margin: 50px;
+    font-size: larger;
+}
+
+.flex-container{
+    background-color: rgba(159, 143, 188, 0.137);
+    /* margin: 20px;*/
+    width: 380px;
+    margin: 20px;
+    border-radius: 35px;
+     /* Curve time !!!!!!!!!! */
+     /* border-radius: 10px 10px 10px 10px; */
+}
+
+.wrapper {
+    width: 250px;
+    border-radius: 200%;
+    float:right;
+    margin-right: 270px;
+
+}
+.new-button-nav{
+    width: 450px;
+
+}
+
+.new-para{
+    color: #46a4ea;
+}
+
+.flex-ui{
+    color: #46a4ea;
+    background-color: rgba(159, 143, 188, 0.137); 
+    padding: 10px 10px 10px 50px;
+    width: 150px;
+}
+
+.flex-cu{ 
+    color: #46a4ea;
+    background-color: rgba(159, 143, 188, 0.137); 
+    padding: 10px 20px 10px 40px;
+    width: 130px;
+}   
+.p{
+    padding: 50px;
+    font-size: 100px;
+}
+
+.extra {
+    list-style-type: none;
+    margin:20px;
+    padding: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.start-work{
+    margin-top: 20px; 
+    padding:  50px; 
+}
+
+.apply{
+    list-style-type: none;
+    margin: -10px;
+    padding: 10px;
+    display: flex;
+    justify-content:space-between;
+    justify-content: flex-start;
+}
+.flex-cr{
+    flex-basis: 28%;
+}
+
+.flex-job{
+    flex-basis: 28%;
+}
